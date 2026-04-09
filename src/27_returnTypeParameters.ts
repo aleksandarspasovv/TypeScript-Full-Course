@@ -2,7 +2,7 @@ function chekcLenght(a: string, b: number){
     return a.length > b
 }
 
-type ReturnTypeOfCheckLenght = ReturnType<typeof chekcLenght>
+type ReturnTypeOfCheckLenght = ReturnType<typeof chekcLenght> //accepts a type
 
 
 type Func = () => void
